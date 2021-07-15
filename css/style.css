@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 1em;
+    height: 100vh;
+}
+
+#map {
+    width: 100%;
+    height: calc(100vh - 56px);
+    z-index: 1;
+}
+
+.left-sidebar {
+    height: auto;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    box-shadow: 5px 0px 5px 0px rgba(69, 67, 67, 0.6);
+    z-index: 1000;
+}
+
+.basic-functions {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.basic-functions .btns {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+.basic-functions .fas {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map-coordinate {
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 7px;
+    background-color: rgba(69, 67, 69, 0.3);
+    border-radius: 0px;
+    font-size: 1em;
+    padding: 5px 15px;
+}
+
+.boundaryName{
+    padding-top: 20px;
+    
+}
+
+.leaflet-control-layers-list {
+    line-height: 10px;
+}
