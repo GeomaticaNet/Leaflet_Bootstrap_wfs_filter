@@ -1,6 +1,8 @@
 # Buscador y filtro de elementos de una capa de polígonos en Leaflet.
 Buscador de elementos con Leaflet, Bootstrap 4.6, Geoserver y Postgis
 
+![wfs](https://user-images.githubusercontent.com/16272697/129121000-45718515-906a-4602-9fc6-2e9f8d66a0ab.png)
+
 Información acerca del proyecto.
 
 Se implementa un buscador de elementos de una capa de geometría de polígonos utilizando un servicio WFS. Para el mismo se utiliza las tecnologías Leaflet, Bootstrap 4.6, jQuery, Geoserver y PostgreSQL con la extensión PostGIS.
